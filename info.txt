@@ -1,0 +1,20 @@
+Presentado por: Leonardo Patiño Rodriguez
+
+Pasos:
+
+Si tiene la suit de anaconda instalada el programa corre sin problemas, de lo contrario debe instalar dependencias pasos:
+
+1. crear entorno virtual:  conda create -n hackaton python=3.6
+2. Activar el entorno: conda hackaton preventivo
+3. Instalar dependencias: pip install -r requirements.txt
+4. Instalar mariadb version XAMPP 
+5. Iniciar servicio mysql
+7. crear base de datos: CREATE DATABASE datahackaton
+8. En la carpeta conexion/mysql.json agregar el string de conexión
+9. Ejemplo de ejecución cmd 
+
+
+
+
+
+

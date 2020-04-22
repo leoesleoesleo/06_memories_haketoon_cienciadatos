@@ -1,0 +1,35 @@
+
+*****RETO 1*****
+
+#FIT
+python main.py --applicationsPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataEnviadaInicialmente\Applications.csv --applicationstagesPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataEnviadaInicialmente\ApplicationStages.csv --candidatesPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataEnviadaInicialmente\Candidates.csv --stagesPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataEnviadaInicialmente\Stages.csv --vacantsPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataEnviadaInicialmente\Vacants.csv --metodo=fit --entrenar=entrenar
+
+#PREDICT
+python main.py --applicationsPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataParaGenerarArchivosDeSalida\Application_test.csv --candidatesPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataParaGenerarArchivosDeSalida\Candidates_test.csv --stagesPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataParaGenerarArchivosDeSalida\Stage_test.csv --vacantsPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataParaGenerarArchivosDeSalida\Vacant_test.csv --metodo=predict
+
+
+*****RETO 2*****
+
+#FIT
+python main.py --datesPath=C:\Users\leonardo.patino\Desktop\Haketoon\test\reto2\ficheros\dates.csv --metodo=fit --entrenar=entrenar
+
+#PREDICT
+python main.py --datesPath=C:\Users\leonardo.patino\Desktop\Haketoon\test\reto2\ficheros\dates_test.csv --metodo=predict 
+
+
+*****RETO 3*****
+
+#FIT
+python main.py --candidatesPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataEnviadaInicialmente\Candidates.csv --psytestPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataEnviadaInicialmente\Psychometrics.csv --metodo=fit --entrenar=entrenar
+
+
+#PREDICT
+python main.py --candidatesPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataParaGenerarArchivosDeSalida\Candidates_test.csv --psytestPath=C:\Users\leonardo.patino\Desktop\Haketoon\DataHackaton\DataParaGenerarArchivosDeSalida\Psychometrics.csv --metodo=predict
+
+
+
+
+
+
+
+
